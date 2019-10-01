@@ -13,6 +13,7 @@
 		FC7001F62343B9E1003FE148 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC7001F42343B9E1003FE148 /* Main.storyboard */; };
 		FC7001F82343B9E3003FE148 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FC7001F72343B9E3003FE148 /* Assets.xcassets */; };
 		FC7001FB2343B9E3003FE148 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC7001F92343B9E3003FE148 /* LaunchScreen.storyboard */; };
+		FC7002042343BAAF003FE148 /* PokeDex.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC7002032343BAAF003FE148 /* PokeDex.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		FC7001F72343B9E3003FE148 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FC7001FA2343B9E3003FE148 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FC7001FC2343B9E3003FE148 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FC7002032343BAAF003FE148 /* PokeDex.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PokeDex.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,8 +73,17 @@
 				FC7001F72343B9E3003FE148 /* Assets.xcassets */,
 				FC7001F92343B9E3003FE148 /* LaunchScreen.storyboard */,
 				FC7001FC2343B9E3003FE148 /* Info.plist */,
+				FC7002052343BC9D003FE148 /* Models */,
 			);
 			path = Resources;
+			sourceTree = "<group>";
+		};
+		FC7002052343BC9D003FE148 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				FC7002032343BAAF003FE148 /* PokeDex.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -146,6 +157,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FC7002042343BAAF003FE148 /* PokeDex.swift in Sources */,
 				FC7001F32343B9E1003FE148 /* ViewController.swift in Sources */,
 				FC7001EF2343B9E1003FE148 /* AppDelegate.swift in Sources */,
 				FC7001F12343B9E1003FE148 /* SceneDelegate.swift in Sources */,
